@@ -34,12 +34,19 @@ This repository contains all the projects and assignments of the comprehensive m
 
 
 ## Repository Structure:
+
 /PromptEngineer/: Contains projects and assignments related to prompt engineering.
+
 /JavaFundamentals/: Contains projects and assignments related to Java programming fundamentals and OOP.
+
 /AndroidDevelopment/: Contains projects and assignments related to Android application development.
+
 /AndroidSecurity/: Contains projects and assignments related to Android security essentials.
+
 /DartProgramming/: Contains projects and assignments related to the Dart programming language.
+
 /FlutterDevelopment/: Contains projects and assignments related to Flutter application development for iOS and Android.
 
 
-Thank you for visiting my repository. I hope you find the projects and assignments informative and helpful. Let's build amazing mobile applications together!
+
+####Thank you for visiting my repository. I hope you find the projects and assignments informative and helpful. Let's build amazing mobile applications together!
