@@ -28,7 +28,7 @@ This repository contains all the projects and assignments of the comprehensive m
 - Designing and building responsive and user-friendly applications for both iOS and Android.
 - Developing cross-platform mobile applications using Flutter.
 
-  ### 6- Prompt Engineer
+### 6- Prompt Engineer
 
 - Understanding prompt engineering for effective communication between developers and AI systems.
 
