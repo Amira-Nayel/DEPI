@@ -6,8 +6,9 @@
   
  Ex: my name is ahmed 
  
- Then print 
- My
- Name
- Is
- Ahmed
+Then print:
+
+ - My
+ - Name
+ - Is
+ - Ahmed
