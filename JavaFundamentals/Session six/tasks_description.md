@@ -2,5 +2,5 @@
 
 - 1-Cart App Modification: add inhertance to the cart application 
 
-- 2-Create a Hospital Management System: Manages patients, doctors, nurses, departments, billing, Employees, and managers.
+- 2-Create a Hospital Management System: Manages patients, doctors, nurses, departments, Employees, and managers.
 
