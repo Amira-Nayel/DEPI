@@ -59,12 +59,11 @@ loop@ do {
     println("Do you want to make another calculation? (y/n)")
     var answer = readTxt()?.getOrNull(0)
 
-    if (answer == null || answer.equals('n', ignoreCase = true)) {
-        stop = true
+    stop = if (answer == null || answer.equals('n', ignoreCase = true)) true
+    else {
+        false
     }
-    else{
-        stop=false
-    }
+
 }
 while (!stop)
 }
@@ -72,27 +71,13 @@ while (!stop)
 fun summation (numb1 : Int , numb2 : Int) {
     println("The summation = ${numb1+numb2}")
 }
-fun summation (numb1 : Double , numb2 : Double) {
-    println("The summation = ${numb1+numb2}")
-}
-fun summation (numb1 : Double , numb2 : Int) {
-    println("The summation = ${numb1+numb2}")
-}
-fun summation (numb1 : Int , numb2 : Double) {
-    println("The summation = ${numb1+numb2}")
-}
-fun subtract (numb1 : Int , numb2 : Int) {
-    println("The subtraction = ${numb1-numb2}")
-}
-fun subtract (numb1 : Double , numb2 : Double) {
-    println("The subtraction = ${numb1-numb2}")
-}
-fun subtract (numb1 : Double , numb2 : Int) {
-    println("The subtraction = ${numb1-numb2}")
-}
-fun subtract (numb1 : Int , numb2 : Double) {
-    println("The subtraction = ${numb1-numb2}")
-}
+fun summation (numb1 : Double , numb2 : Double) = println("The summation = ${numb1+numb2}")
+fun summation (numb1 : Double , numb2 : Int) = println("The summation = ${numb1+numb2}")
+fun summation (numb1 : Int , numb2 : Double) = println("The summation = ${numb1+numb2}")
+fun subtract (numb1 : Int , numb2 : Int) = println("The subtraction = ${numb1-numb2}")
+fun subtract (numb1 : Double , numb2 : Double) = println("The subtraction = ${numb1-numb2}")
+fun subtract (numb1 : Double , numb2 : Int) = println("The subtraction = ${numb1-numb2}")
+fun subtract (numb1 : Int , numb2 : Double) = println("The subtraction = ${numb1-numb2}")
 fun divided (numb1 : Int , numb2 : Int) {
     if (numb2==0){println("Error! Cannot divide by zero")
     } else {
@@ -113,18 +98,10 @@ fun divided (numb1 : Double , numb2 : Int) {
     if (numb2==0){println("Error! Cannot divide by zero")
     } else println("The division = ${numb1/numb2}")
 }
-fun multiplication (numb1 : Int , numb2 : Int) {
-    println("The multiplication = ${numb1*numb2}")
-}
-fun multiplication (numb1 : Double , numb2 : Double) {
-    println("The multiplication = ${numb1*numb2}")
-}
-fun multiplication (numb1 : Double , numb2 : Int) {
-    println("The multiplication = ${numb1*numb2}")
-}
-fun multiplication (numb1 : Int , numb2 : Double) {
-    println("The multiplication = ${numb1*numb2}")
-}
+fun multiplication (numb1 : Int , numb2 : Int) = println("The multiplication = ${numb1*numb2}")
+fun multiplication (numb1 : Double , numb2 : Double) = println("The multiplication = ${numb1*numb2}")
+fun multiplication (numb1 : Double , numb2 : Int) = println("The multiplication = ${numb1*numb2}")
+fun multiplication (numb1 : Int , numb2 : Double) = println("The multiplication = ${numb1*numb2}")
 fun reminderM (numb1 : Int , numb2 : Int) {
     if (numb2==0){println("Error! Cannot divide by zero")
     } else {
